@@ -1,0 +1,79 @@
+ public class  Mobile{
+    static String lockScreenColor = "Black";
+    static int foundYear = 1973;
+    String chargingType;
+    int price =25000;
+    String mobileName;
+
+   
+
+
+
+    public static void main(String[] args) {
+        
+    
+         Mobile  mobile = new  Mobile();
+
+         Mobile.mobileName = "RealMe";
+        System.out.println( mobile.mobileName);
+        System.out.println( mobile.price);
+        System.out.println( mobile.lockScreenSize);
+        
+         Mobile.processor =ProcessorType.INTEL;
+        System.out.println( Mobile.processor);
+        String result1 = "intel";
+        boolean finalResult = result1.equals( Mobile.processor.getVlaue());
+        System.out.println(finalResult);
+       
+
+        IPhone iphone = new IPhone();
+        iphone.cost = 50000;
+        System.out.println(iphone.cost);
+        System.out.println(iphone.cover);
+        System.out.println(iphone.noOfEdges);
+   
+    }
+    
+
+
+    public enum ChargingType {
+        CTYPE("C"),NORMAL("Common"),CIRCLE("Round Shape")
+        String result;
+
+         ProcessorType(String result){
+        this.result = result;
+
+    }
+    public String getVlaue(){
+
+        return this.result;
+    }
+    }    
+}
+class IPhone{
+    static int numberOfLogo = 1;
+    static String iphoneCEO= "TIM COOK";
+    String  color = "White";
+    int cost;
+    Color cover = color.SOFT_COVER;
+
+    
+
+
+
+    public enum Color {
+    BLACK("hard_cover"), WHITE("soft_cover"), GRAY("spiral");
+        String value;
+    
+
+
+    Color(String value){
+        this.value = value;
+
+    }
+    public String getVlaue(){
+
+        return this.value;
+    }
+}
+}

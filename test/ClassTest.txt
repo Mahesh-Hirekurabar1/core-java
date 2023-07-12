@@ -1,0 +1,132 @@
+1.Maternal uncle
+2.Grand father
+3.Sister
+4.father
+5.grandson
+6.x+A*y
+7.R
+8.Sister-in-law
+9.Father
+10.S
+11.10K.m
+12.South
+13.Soth-West
+14.North-East
+Theroy ans
+1.Constructor-"It is a block of code which is execute when object is created"
+ Constructor-can be created same as the class name
+ we have 3 rules in constructor
+ 1.Constructor name should be same as class name.
+ 2.no explicite return type
+ 3.Don't use static and final key word
+ for example: public class Bus{
+				Public static void main(String[] args){
+				
+				public Bus(){
+				//Statement
+				}
+				}
+				}
+				
+				
+ 2.Types of constructor
+  we have two types
+  1.Default constructor:-  default constructor is created by the explicite type when it is exicuted./it 
+  -is automatically created by the compiler when class file will be exicuted.
+   default constructor not have any parameters 
+   it is explicite type constructor.
+   Syntax:Public static void main(String[] args){
+				//Default constructor
+				public Bus(){
+				//Statement
+				}
+				}
+				}
+  2.parameterized constructor:-it is created by the user having the parametersinside it.
+  when ever object is created we need to create constructor
+  constructoris also createdto initialize the values.
+ Public static void main(String[] args){
+				int age;
+				public Bus(Parameters){
+				//Statement
+				}
+				}
+				}
+				
+				
+3.Object
+object is a keyword it represents the states and behaviours
+where states are the characterstic of the object
+behaviours is the action of the object
+ objects are route of class
+ if we have similar type of behaviours then we use static keyword.
+ this will helps to memory save
+ and it is immutable
+ 
+ 
+ 
+4.class
+class is the road map or blue print for create an object
+*class give the flow of program
+
+
+
+5.Method Overloading
+Method overloading is same in method name but different in parameter
+3 ways for create the method overloading
+1.Changing no.of parameters 
+2.Changing the Datatype of parameter
+3.Changing the order of parameters
+
+
+
+
+6.Variables 
+Variables are the container to store the values of data type
+for example: int stores the integer values
+Syntax: dataType variableName or referenceName =  value;
+int ageOfRohit=23;
+
+
+7.This is the keyword
+it is used when parameterized constructorwill be creating 
+it will helpes to differentiate between variableName
+syntax:
+public Human(int age){
+ this.age=age;
+ }
+
+
+
+8.String
+String is keyword which is use to store the group of chracters.
+*String is immutable
+in string we can write by type
+1.litterals
+2.By using new keyword
+for example:- String name="Mahesh";
+String name = new String();
+
+
+
+9.methods of String class
+1.charAt(char   ch);
+	charAtis the string method type which return the char values
+	it is inbuilt function in java.
+2.split();
+	this type of string metho is used to split the and it returns the string values
+		this is also inbuilt function used to split the sentences ,etc
+3.toUpperCase();
+	this type of string it will execute uppercase chracters in sentences.
+4.toLowerCase();
+this type of string it will execute lowercase chracters in sentences.
+5.
+
+
+
+10.String is immutable
+Strings in Java are immutable because strings with the same content share storage in a string pool 
+to avoid the same copy of the value.
+if 1st value is stored in string pool it take one address location after that another string is pass with different 
+parameter it automatically go for new address and old one is vanished. so string is immutable it con't be modify.
+
